@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin: 0%;
+  }
+  
+  .first-bills {
+    background-color: rgb(118, 165, 219);
+    padding: 2%;
+    padding-top: 0%;
+  }
+  .second-bills {
+    background-color: rgb(1, 136, 58);
+    padding: 2%;
+  }
+  
