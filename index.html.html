@@ -1,0 +1,66 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bill Calculator</title>
+  <link rel="stylesheet" href="asdf.css">
+</head>
+<body>
+  <div class="first-bills">
+    <h1>First Half Bills</h1>
+    <input type="text" class="js-input-myCheck1" placeholder="John's short check">
+    <br>
+    <input type="text" class="js-input-vickiCheck" placeholder="Vicki's Check">
+    <br>
+    <input type="text" class="js-input-chickasaw" placeholder="chickasaw's price varies">
+
+    <br>
+
+    <input type="text" class="js-input-hardeman" placeholder="Hardeman's price varies">
+    <br>
+    
+    <label>
+      <input type="checkbox" name="trash" value="yes"> Trash?
+    </label>
+    <br>
+    
+    <p class="js-paragraph-bills">
+      Calculate total for Mortgage, Comcast, Chickasaw, Hardeman
+    </p>
+
+    <p class="js-paragraph-parts">
+      Calculate total divided by 4 to get parts
+    </p>
+    <p>my part of just rent is 958 divided by 2 plus 215.  Which equals to 694.  Also all debt equals to 9k for credit cards and Affirm</p>
+
+    <p class="js-paragraph-first">
+      First Half which is mine and vickies parts plus Cricket and Adobe.
+    </p>
+
+    <p class="js-paragraph-first-budget">First Budget</p>
+
+    <button onclick="totalBills1();">submit</button>
+  </div>
+  <div class="second-bills">
+    <h1>Second Half Bills</h1>
+    <input type="text" class="js-input-myCheck3" placeholder="John's short check">
+    <br>
+    <input type="text" class="js-input-vickiCheck2" placeholder="Vicki's Check">
+    <br>
+    <input type="text" class="js-input-jCard" placeholder="John's Credit Card">
+    <br>
+    <input type="text" class="js-input-vCard" placeholder="Vicki's Credit Card">
+    <br>
+    <input type="text" class="care-credit" placeholder="Care Credit = $30">
+    <br>
+    <p class="second-half">
+      Second half bills including my credit card, Care Credit, Vickies credit card, Affirm for computer parts, Spotify, car
+      note, car insurance, life insurance, game pass, and wet food.
+    </p>
+    <p class="js-paragraph-second-budget">Second budget</p>
+    <button onclick="totalBills2();">submit</button>
+  </div>
+
+  <script src="asdf.js"></script>
+
+
+</body></html>
