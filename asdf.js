@@ -11,7 +11,7 @@ let bills = {
   carNote: 0,
   spotify: 14,
   adobe: 40,
-  carInsurance: 214,
+  carInsurance: 88,
   lifeInsurance: 36,
   wetfood: 30,
   catLitter: 26,
