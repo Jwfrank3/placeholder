@@ -22,7 +22,7 @@ let bills = {
   ring: 5,
   careCredit: 0,
   rentDifference: 215, // original 957 & new is 1172.  difference is 215
-  studentLoans, // due on 11th
+  studentLoans: 64, // due on 11th
 };
 
 let accounts = {
