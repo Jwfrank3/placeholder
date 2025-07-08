@@ -21,7 +21,7 @@ let bills = {
   affirm: 0,
   ring: 5,
   careCredit: 0,
-  rentDifference: 215, // original 957 & new is 1172.  difference is 215
+  rentDifference: 214, // original 958 & new is 1172.  difference is 214
   studentLoans: 64, // due on 11th
 };
 
