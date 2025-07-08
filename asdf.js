@@ -22,6 +22,7 @@ let bills = {
   ring: 5,
   careCredit: 0,
   rentDifference: 215, // original 957 & new is 1172.  difference is 215
+  studentLoans, // due on 11th
 };
 
 let accounts = {
@@ -71,7 +72,7 @@ function totalBills2() {
   updateValue();
 
   const secondHalf = bills.jCard + bills.vCard + bills.carNote + bills.carInsurance + bills.lifeInsurance +
-    bills.gamePass + bills.wetfood + bills.affirm + bills.careCredit + bills.spotify;
+    bills.gamePass + bills.wetfood + bills.affirm + bills.careCredit + bills.spotify + bills.studentLoans;
 
   const secondBudget = accounts.myCheck3 + accounts.vickiCheck2 - secondHalf - foodGas;
 
